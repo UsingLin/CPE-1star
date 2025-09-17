@@ -32,11 +32,12 @@ public class BanglaNumber {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int N = 1;
 
         while (sc.hasNextLong()) {
             long num = sc.nextLong();
-            int N = 1;
             System.out.printf("%4d.", N);
+
             if (num == 0) {
                 System.out.print(" 0");
             } else if (num >= 10000000) {
@@ -46,7 +47,7 @@ public class BanglaNumber {
             } else {
                 Bangla(num);
             }
-            System.out.println(" ");
+            System.out.println();
             N++;
         }
         sc.close();
