@@ -1,2 +1,2 @@
-# Judge
-CPE
+# Online Judge
+CPE 1star
